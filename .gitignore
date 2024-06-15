@@ -60,6 +60,10 @@ replay_pid*
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
+.idea/**/misc.xml
+.idea/**/modules.xml
+.idea/**/ttygif.iml
+.idea/**/vcs.xml
 
 # AWS User-specific
 .idea/**/aws.xml
