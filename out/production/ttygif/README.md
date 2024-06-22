@@ -1,2 +1,0 @@
-# ttygif
-ttygif for Windows
