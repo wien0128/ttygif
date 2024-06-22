@@ -96,6 +96,8 @@ replay_pid*
 # .idea/modules
 # *.iml
 # *.ipr
+.gradle
+
 
 # CMake
 cmake-build-*/
@@ -105,9 +107,14 @@ cmake-build-*/
 
 # File-based project format
 *.iws
+*.imi
+*.ipr
 
 # IntelliJ
-*.out
+!gradle/wrapper/gradle-wrapper.jar
+.idea
+out/
+out
 
 # mpeltonen/sbt-idea plugin
 .idea_modules/
@@ -129,6 +136,3 @@ fabric.properties
 
 # Editor-based Rest Client
 .idea/httpRequests
-
-# Android studio 3.1+ serialized cache file
-.idea/caches/build_file_checksums.ser
