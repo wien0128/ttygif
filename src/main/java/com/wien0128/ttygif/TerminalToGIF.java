@@ -69,6 +69,10 @@ public class TerminalToGIF {
 
             System.out.println("Conversion to GIF completed successfully.");
         } catch (IOException e) {
+            System.err.println("IOException occurred: " + e.getMessage());
+            e.printStackTrace();
+        } catch (Exception e) {
+            System.err.println("Unexpected exception occurred: " + e.getMessage());
             e.printStackTrace();
         }
     }

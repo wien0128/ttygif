@@ -14,7 +14,7 @@ public class TerminalToRec {
     public TerminalToRec(String path) throws IOException {
         fd = LibC.INSTANCE.open(path, O_WRONLY | O_CREAT | O_TRUNC, S_IRUSR | S_IWUSR);
         if (fd < 0) {
-            throw new IOException("Failed to open file");
+            throw new IOException("Failed to open file: " + path);
         }
     }
 

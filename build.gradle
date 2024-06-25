@@ -1,9 +1,11 @@
 plugins {
     id 'java'
+    id 'application'
 }
 
 group 'com.wien0128.ttygif'
 version '0.0.1-SNAPSHOT'
+mainClassName = 'com.wien0128.ttygif.TerminalToGIF'
 
 repositories {
     mavenCentral()
